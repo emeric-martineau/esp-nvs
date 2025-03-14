@@ -1,0 +1,14 @@
+[package]
+name = "esp-nvs"
+authors = ["Emeric Martineau <11473190+emeric-martineau@users.noreply.github.com>"]
+description = "NVS wrapper for ESP32 in Rust"
+homepage = "https://github.com/emeric-martineau/esp-nvs"
+keywords = ["ESP32"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/emeric-martineau/esp-nvs"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+esp-idf-sys = { version = "0.36.1", default-features = false }
